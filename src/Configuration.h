@@ -9,10 +9,7 @@
 #define ESP_32                 
 
 //------------------------------------------Define Units----------------------------------------------------------//
-
-//#define BASE_Station_address {0x18, 0xFE, 0x34, 0xD6, 0x7E, 0x15}
-#define BASE_Station_address {0xC4, 0xDD, 0x57, 0x92, 0xA5, 0xE8}
-
+// Still work in progress
 //---------Temperature--------------//
 #define CELSIUS
 //#define FARENHEIT
@@ -104,14 +101,14 @@
 //---------------------------------------------------------------------------------------------------------------------//
 //-------------------------------------------WiFi, MQTT and Time Zone Config--------------------------------------------//
 //---------------------------------------------------------------------------------------------------------------------//
-
+ 
 
 #define host_name "Weather Station v2"
-#define wifi_ssid "Fornax"                      //Wifi Name
-#define wifi_password "Premier11"               //WiFi Password
-#define mqtt_server "192.168.1.132"             //MQTT Server address
-#define mqtt_user "mqttpegasus"                 //MQTT username
-#define mqtt_password "pegasus"                 //MQTT Password
+#define wifi_ssid "SSID"                      //Wifi Name
+#define wifi_password "PASSWORD"               //WiFi Password
+#define mqtt_server "xx.xxx.x.xxx"             //MQTT Server address
+#define mqtt_user "USERNAME"                 //MQTT username
+#define mqtt_password "PASSWORD"                 //MQTT Password
 
 #define Timezone 2
 
@@ -140,8 +137,8 @@
 
 //------------------------------------------------ESP-Now Screen MAC Address-----------------------------------------//
 
-//#define BASE_Station_address {0x18, 0xFE, 0x34, 0xD6, 0x7E, 0x15}
-#define BASE_Station_address {0xC4, 0xDD, 0x57, 0x92, 0xA5, 0xE8}
+//#define BASE_Station_address {0x00, 0x00, 0x00, 0x00, 0x00, 0x00}
+#define BASE_Station_address {0x00, 0x00, 0x00, 0x00, 0x00, 0x00}
 
 //-----------------------------------------Uncomment for Outputs----------------------------------------------------- //
 
